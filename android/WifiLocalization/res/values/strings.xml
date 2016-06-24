@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WifiLocalization</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_indoor_map">IndoorMapActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_my_center">MyCenterActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="ExitAppToast">再按一次后退键退出程序</string>
+    <string name="title_activity_edit_node">EditNodeActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_result_map">ResultMapActivity</string>
+    <string name="title_activity_node_detail">NodeDetailActivity</string>
+    <string name="title_activity_friend_list">FriendListActivity</string>
+    <string name="title_activity_social_tab">SocialTabActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_friend_location_map">FriendLocationMapActivity</string>
+    <string name="title_activity_search_user">SearchUserActivity</string>
+    <string name="title_activity_push_message">PushMessageActivity</string>
+
+</resources>

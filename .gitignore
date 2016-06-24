@@ -1,0 +1,14 @@
+/android/WifiLocalization/bin
+/android/WifiLocalization/*.classpath
+/android/WifiLocalization/*.project
+/server/WifiLocalization/*.buildpath
+/server/WifiLocalization/*.project
+/server/WifiLocalization/.settings
+/server/WifiLocalization/upload
+
+/android/WifiLocalization/gen/com/neu/wifilocalization/BuildConfig.java
+
+/android/WifiLocalization/gen/com/huiztech/common
+/android/WifiLocalization/gen/com/neu/wifilocalization
+
+

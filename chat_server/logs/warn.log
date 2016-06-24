@@ -1,0 +1,53 @@
+2014.04.27 10:44:56 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@1cf8142 socket: Socket[addr=/192.168.0.105,port=51721,localport=5269] session: null
+2014.04.27 10:44:56 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@67820f socket: Socket[addr=/192.168.0.105,port=51722,localport=5269] session: null
+2014.04.27 10:46:26 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 10:50:16 org.jivesoftware.util.cache.CacheFactory - Clustered cache factory strategy com.jivesoftware.util.cache.ClusteredCacheFactory not found
+2014.04.27 10:55:12 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 10:55:18 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 10:56:52 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 11:02:25 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 11:02:28 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 11:02:29 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 11:02:29 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 11:02:29 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 11:02:30 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 11:02:30 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.04.27 11:05:58 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@3b0d70 socket: Socket[addr=/192.168.0.105,port=52209,localport=5269] session: null
+2014.04.27 11:05:58 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@16b5317 socket: Socket[addr=/192.168.0.105,port=52210,localport=5269] session: null
+2014.04.27 11:06:04 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@e6eb7c socket: Socket[addr=/192.168.0.105,port=52211,localport=5269] session: null
+2014.04.27 11:06:04 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@6a7ad3 socket: Socket[addr=/192.168.0.105,port=52212,localport=5269] session: null
+2014.04.27 11:06:15 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@1d64656 socket: Socket[addr=/192.168.0.105,port=52213,localport=5269] session: null
+2014.04.27 11:06:15 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@3b73f8 socket: Socket[addr=/192.168.0.105,port=52214,localport=5269] session: null
+2014.04.27 11:07:45 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@1186271 socket: Socket[addr=/192.168.0.105,port=52227,localport=5269] session: null
+2014.04.27 11:07:45 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@40f91a socket: Socket[addr=/192.168.0.105,port=52228,localport=5269] session: null
+2014.04.27 11:09:31 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@27d7d0 socket: Socket[addr=/192.168.0.105,port=52233,localport=5269] session: null
+2014.04.27 11:09:31 org.jivesoftware.openfire.net.SocketReader - Closing session due to incorrect hostname in stream header. Host: 192.168.0.105. Connection: org.jivesoftware.openfire.net.SocketConnection@1f9284b socket: Socket[addr=/192.168.0.105,port=52234,localport=5269] session: null
+2014.05.02 14:46:32 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.02 14:46:33 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.03 13:53:20 org.jivesoftware.util.log.util.CommonsLogFactory - Shutdown waited for 4 milliseconds for all the connections to become inactive but the active count is still 1. Shutting down anyway.
+2014.05.04 16:25:05 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.04 16:25:06 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.06 19:30:07 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.06 19:30:11 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.08 19:30:15 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.08 19:30:16 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.09 21:04:54 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: Using RSA certificates but they are not valid for the hosted domain
+2014.05.09 21:04:55 org.jivesoftware.openfire.http.HttpBindManager - HTTP binding: Using RSA certificates but they are not valid for the hosted domain
+2014.05.09 21:05:32 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.09 21:05:36 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.10 23:32:08 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.10 23:32:09 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.21 10:26:15 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.21 10:26:16 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.27 10:16:04 org.jivesoftware.util.log.util.CommonsLogFactory - #0003 was active for 302627 milliseconds and has been removed automaticaly. The Thread responsible was named 'TaskEngine-pool-343', but the last SQL it performed is unknown because the trace property is not enabled.
+2014.05.28 07:57:10 org.jivesoftware.util.log.util.CommonsLogFactory - #0003 was active for 302611 milliseconds and has been removed automaticaly. The Thread responsible was named 'TaskEngine-pool-439', but the last SQL it performed is unknown because the trace property is not enabled.
+2014.05.28 08:45:06 org.jivesoftware.util.log.util.CommonsLogFactory - Shutdown waited for 78 milliseconds for all the connections to become inactive but the active count is still 2. Shutting down anyway.
+2014.05.28 09:37:13 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.05.28 09:37:17 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.05.28 09:37:22 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.05.28 09:37:25 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.05.28 09:38:29 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.05.28 09:38:33 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.05.28 09:39:16 org.jivesoftware.admin.LoginLimitManager - Failed admin console login attempt by admin from 127.0.0.1
+2014.05.28 10:24:28 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2014.05.28 10:24:32 org.jivesoftware.util.log.util.CommonsLogFactory - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.

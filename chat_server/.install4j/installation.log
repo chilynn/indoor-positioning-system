@@ -1,0 +1,1262 @@
+[INFO] logger started at Sat Apr 26 21:09:06 CST 2014
+[INFO] executable name: C:\Users\alin\Desktop\Recent\openfire_3_9_1.exe
+[INFO] install4j version: 5.1.9 (build 5687)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=C:\Users\alin\Desktop\Recent\openfire...
+sun.boot.library.path=c:\users\alin\appdata\local\temp\e4ja...
+java.vm.version=24.51-b03
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=CN
+sun.os.patch.level=
+install4j.exeDir=C:\Users\alin\Desktop\Recent\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\alin\AppData\Local\Temp\e4jA...
+java.runtime.version=1.7.0_51-b13
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\users\alin\appdata\local\temp\e4ja...
+os.arch=x86
+java.io.tmpdir=C:\Users\alin\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\alin\AppData\Local\Temp\e4jA...
+os.name=Windows 8
+sun.java2d.noddraw=true
+sun.jnu.encoding=GBK
+java.library.path=C:\Program Files (x86)\NVIDIA Corpora...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=51.0
+sun.management.compiler=HotSpot Client Compiler
+install4j.language=zh_CN
+exe4j.isInstall4j=true
+os.version=6.2
+user.home=C:\Users\alin
+user.timezone=Asia/Shanghai
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.7
+file.encoding=GBK
+user.name=alin
+java.class.path=C:\Users\alin\AppData\Local\Temp\e4jA...
+java.vm.specification.version=1.7
+sun.arch.data.model=32
+java.home=c:\users\alin\appdata\local\temp\e4ja...
+sun.java.command=C:\Users\alin\Desktop\Recent\openfire...
+exe4j.launchName=C:\Users\alin\Desktop\Recent\openfire...
+java.specification.vendor=Oracle Corporation
+user.language=zh_CN
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=-1
+java.version=1.7.0_51
+java.ext.dirs=c:\users\alin\appdata\local\temp\e4ja...
+sun.boot.class.path=c:\users\alin\appdata\local\temp\e4ja...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\alin\AppData\Local\Temp\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+install4j.systemLanguage=zh
+exe4j.unextractedPositionRestart=29483927
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 1294]: Execute action
+       Property failIfNotObtainedWin: true
+       Property failIfNotObtainedMac: true
+       Property obtainIfNormalMac: false
+       Property failIfNotRootUnix: true
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalWin: false
+       Property obtainIfAdminMac: false
+       Property allRequested: false
+       Property rollbackSupported: false
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Execute action successful after 1973 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 15]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 54]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 54]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 55]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 55]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 56]: Show screen
+       Variable changed: sys.installationDir=D:\A-Lin Software\Openfire[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 56]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 58]: Show screen
+       Variable changed: sys.programGroupName=Openfire[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 58]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 60]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 61]: Execute action
+       Property installationDirectory: null
+       Property onlyIfSameApplicationId: true
+       Property rollbackSupported: true
+       checking running processes
+       checking running processes ok
+       getting previous installation id
+       no previous installation detected, uninstaller was not started
+       finished
+       Execute action successful after 106 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 62]: Execute action
+       Property validateApplicationId: false
+       Property updateBundledJre: true
+       Property saveDownloadedFiles: false
+       Property installRuntime: true
+       Property checkFreeSpace: true
+       Property sizeCalculatorScript: null
+       Property delay: false
+       Property triggerReboot: true
+       Property fileFilterScript: null
+       Property showFileNames: true
+       Property directoryResolverScript: null
+       Property rollbackSupported: true
+       Install file: D:\A-Lin Software\Openfire\jre\bin\awt.dll; size: 1173416 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:55 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\bin\axbridge.dll; size: 153000 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\client\jvm.dll; size: 3565480 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\client\Xusage.txt; size: 1447 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\dcpr.dll; size: 142248 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\decora-sse.dll; size: 62888 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\deploy.dll; size: 370600 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\dtplugin\deployJava1.dll; size: 800168 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\dtplugin\npdeployJava1.dll; size: 877480 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\dt_shmem.dll; size: 25512 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\dt_socket.dll; size: 21928 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\eula.dll; size: 108968 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\fontmanager.dll; size: 221096 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\fxplugins.dll; size: 156584 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\glass.dll; size: 159656 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\glib-lite.dll; size: 408488 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\gstreamer-lite.dll; size: 505768 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\hprof.dll; size: 132520 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\installer.dll; size: 207776 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\instrument.dll; size: 115112 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\j2pcsc.dll; size: 16296 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\j2pkcs11.dll; size: 51112 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jaas_nt.dll; size: 19880 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jabswitch.exe; size: 48040 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\java-rmi.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\java.dll; size: 120232 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\java.exe; size: 174504 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\JavaAccessBridge-32.dll; size: 124840 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\javacpl.exe; size: 66984 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\javafx-font.dll; size: 243112 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\javafx-iio.dll; size: 188328 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\javaw.exe; size: 175016 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\java_crw_demo.dll; size: 23976 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jawt.dll; size: 14248 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\JAWTAccessBridge-32.dll; size: 15272 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\JdbcOdbc.dll; size: 45992 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jdwp.dll; size: 164776 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jfr.dll; size: 20392 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jfxmedia.dll; size: 110504 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jfxwebkit.dll; size: 11893160 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jli.dll; size: 142760 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jp2iexp.dll; size: 201640 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jp2launcher.exe; size: 52648 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jp2native.dll; size: 16808 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jp2ssv.dll; size: 171944 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jpeg.dll; size: 145832 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jpicom.dll; size: 93608 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jpiexp.dll; size: 156072 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jpinscp.dll; size: 103848 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jpioji.dll; size: 69032 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jpishare.dll; size: 141736 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jqs.exe; size: 182696 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jsdt.dll; size: 16808 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jsound.dll; size: 30632 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\jsoundds.dll; size: 27560 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\kcms.dll; size: 178088 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\keytool.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\kinit.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\klist.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\ktab.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\libxml2.dll; size: 504232 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\libxslt.dll; size: 164776 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\management.dll; size: 31656 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\mlib_image.dll; size: 573864 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\msvcr100.dll; size: 773968 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\net.dll; size: 75688 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\nio.dll; size: 50088 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\npjpi170_51.dll; size: 223144 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\npoji610.dll; size: 220584 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\npt.dll; size: 17832 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\orbd.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\pack200.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\plugin2\msvcr100.dll; size: 773968 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\plugin2\npjp2.dll; size: 163752 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\policytool.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\prism-d3d.dll; size: 44968 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\rmid.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\rmiregistry.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\servertool.exe; size: 15784 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\splashscreen.dll; size: 196520 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\ssv.dll; size: 462760 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\ssvagent.exe; size: 49064 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\sunec.dll; size: 123816 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\sunmscapi.dll; size: 25512 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\t2k.dll; size: 192936 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\tnameserv.exe; size: 16296 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\unpack.dll; size: 58280 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\unpack200.exe; size: 146344 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\verify.dll; size: 39848 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:56 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\bin\w2k_lsa_auth.dll; size: 21416 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\WindowsAccessBridge-32.dll; size: 96168 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\wsdetect.dll; size: 163240 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\bin\zip.dll; size: 66984 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\COPYRIGHT; size: 3409 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\accessibility.properties; size: 155 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\alt-rt.jar; size: 172765 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\calendars.properties; size: 1232 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\charsets.jar; size: 3556391 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:59 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\classlist; size: 75075 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:56 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\cmm\CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\cmm\GRAY.pf; size: 632 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\cmm\LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\cmm\PYCC.pf; size: 274474 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\cmm\sRGB.pf; size: 3144 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\content-types.properties; size: 5548 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\currency.data; size: 4200 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\ffjcext.zip; size: 18636 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\jqs\jqs.conf; size: 40814 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\jqs\jqsmessages.properties; size: 1720 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages.properties; size: 2860 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_de.properties; size: 3306 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_es.properties; size: 3600 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_it.properties; size: 3223 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_ko.properties; size: 5719 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_pt_BR.properties; size: 3348 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_sv.properties; size: 3409 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy\splash.gif; size: 13959 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\deploy.jar; size: 4585746 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:09:00 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\access-bridge-32.jar; size: 84216 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:56 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\dnsns.jar; size: 8934 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\jaccess.jar; size: 43594 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\localedata.jar; size: 1014713 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:09:00 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\meta-index; size: 829 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:56 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\sunec.jar; size: 15941 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\sunjce_provider.jar; size: 198101 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\sunmscapi.jar; size: 30695 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\sunpkcs11.jar; size: 237244 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\ext\zipfs.jar; size: 68762 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\flavormap.properties; size: 3928 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fontconfig.bfc; size: 3670 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fontconfig.properties.src; size: 10479 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fonts\LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fonts\LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fonts\LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fonts\LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fonts\LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fonts\LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fonts\LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\fonts\LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\i386\jvm.cfg; size: 686 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\images\cursors\cursors.properties; size: 1280 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\images\cursors\invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\images\cursors\win32_CopyDrop32x32.gif; size: 165 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\images\cursors\win32_LinkDrop32x32.gif; size: 168 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\images\cursors\win32_MoveDrop32x32.gif; size: 147 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\javafx.properties; size: 29 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\jce.jar; size: 109504 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\jfr\default.jfc; size: 18574 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\jfr\profile.jfc; size: 18531 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\jfr.jar; size: 532559 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\jfxrt.jar; size: 13550789 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\jsse.jar; size: 526219 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:09:00 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:56 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\logging.properties; size: 2455 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\management\jmxremote.access; size: 3998 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\management\jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\management\management.properties; size: 14097 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\management\snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\management-agent.jar; size: 385 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\meta-index; size: 2190 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\net.properties; size: 3070 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\plugin.jar; size: 1924946 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:59 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:56 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\psfontj2d.properties; size: 10393 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\resources.jar; size: 2450150 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:57 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\rt.jar; size: 51581500 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:59 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\blacklist; size: 2770 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:08:57 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\cacerts; size: 82586 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\java.policy; size: 2593 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\java.security; size: 17985 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\javafx.policy; size: 158 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\javaws.policy; size: 98 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\local_policy.jar; size: 2971 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\trusted.libraries; size: 0 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\security\US_export_policy.jar; size: 2487 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\sound.properties; size: 1210 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\tzmappings; size: 8138 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Abidjan; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Accra; size: 181 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Addis_Ababa; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Algiers; size: 333 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Asmara; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Bamako; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Bangui; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Banjul; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Bissau; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Blantyre; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Brazzaville; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Bujumbura; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Cairo; size: 1049 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Casablanca; size: 896 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Ceuta; size: 1112 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Conakry; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Dakar; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Dar_es_Salaam; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Djibouti; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Douala; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\El_Aaiun; size: 812 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Freetown; size: 313 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Gaborone; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Harare; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Johannesburg; size: 105 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Kampala; size: 97 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Khartoum; size: 337 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Kigali; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Kinshasa; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Lagos; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Libreville; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Lome; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Luanda; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Lubumbashi; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Lusaka; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Malabo; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Maputo; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Maseru; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Mbabane; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Mogadishu; size: 73 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Monrovia; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Nairobi; size: 97 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Ndjamena; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Niamey; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Nouakchott; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Ouagadougou; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Porto-Novo; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Sao_Tome; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Tripoli; size: 317 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Tunis; size: 329 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Africa\Windhoek; size: 824 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Adak; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Anchorage; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Antigua; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Araguaina; size: 473 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Buenos_Aires; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Catamarca; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Cordoba; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Jujuy; size: 533 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\La_Rioja; size: 557 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Mendoza; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Rio_Gallegos; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Salta; size: 533 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\San_Juan; size: 557 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\San_Luis; size: 557 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Tucuman; size: 565 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Argentina\Ushuaia; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Asuncion; size: 1116 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Atikokan; size: 93 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Bahia; size: 553 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Bahia_Banderas; size: 844 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Barbados; size: 137 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Belem; size: 297 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Belize; size: 513 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Blanc-Sablon; size: 93 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Boa_Vista; size: 329 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Bogota; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Boise; size: 1284 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Cambridge_Bay; size: 1076 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Campo_Grande; size: 1116 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Cancun; size: 792 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Caracas; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Cayenne; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Cayman; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Chicago; size: 1960 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Chihuahua; size: 816 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Costa_Rica; size: 137 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Creston; size: 73 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Cuiaba; size: 1100 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Curacao; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Danmarkshavn; size: 341 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Dawson; size: 1108 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Dawson_Creek; size: 509 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Denver; size: 1336 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Detroit; size: 1200 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Edmonton; size: 1316 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Eirunepe; size: 329 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\El_Salvador; size: 105 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Fortaleza; size: 377 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Glace_Bay; size: 1204 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Godthab; size: 1036 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Goose_Bay; size: 1728 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Grand_Turk; size: 1044 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Guatemala; size: 137 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Guayaquil; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Guyana; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Halifax; size: 1908 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Havana; size: 1340 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Hermosillo; size: 189 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Indiana\Indianapolis; size: 868 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Indiana\Knox; size: 1304 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Indiana\Marengo; size: 900 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Indiana\Petersburg; size: 1004 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Indiana\Tell_City; size: 884 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Indiana\Vevay; size: 724 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Indiana\Vincennes; size: 884 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Indiana\Winamac; size: 932 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Inuvik; size: 1060 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Iqaluit; size: 1064 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Jamaica; size: 233 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Juneau; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Kentucky\Louisville; size: 1500 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Kentucky\Monticello; size: 1260 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\La_Paz; size: 81 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Lima; size: 185 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Los_Angeles; size: 1560 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Maceio; size: 393 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Managua; size: 185 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Manaus; size: 313 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Martinique; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Matamoros; size: 788 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Mazatlan; size: 840 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Menominee; size: 1216 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Merida; size: 788 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Metlakatla; size: 329 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Mexico_City; size: 880 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Miquelon; size: 928 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Moncton; size: 1732 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Monterrey; size: 788 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Montevideo; size: 1152 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Montreal; size: 1928 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Nassau; size: 1284 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\New_York; size: 1960 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Nipigon; size: 1144 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Nome; size: 1228 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Noronha; size: 377 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\North_Dakota\Beulah; size: 1276 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\North_Dakota\Center; size: 1276 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\North_Dakota\New_Salem; size: 1276 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Ojinaga; size: 816 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Panama; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Pangnirtung; size: 1076 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Paramaribo; size: 101 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Phoenix; size: 141 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Port-au-Prince; size: 788 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Porto_Velho; size: 297 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Port_of_Spain; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Puerto_Rico; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Rainy_River; size: 1144 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Rankin_Inlet; size: 1052 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Recife; size: 377 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Regina; size: 481 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Resolute; size: 1052 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Rio_Branco; size: 313 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Santarem; size: 305 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Santa_Isabel; size: 1276 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Santiago; size: 1368 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Santo_Domingo; size: 201 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Sao_Paulo; size: 1116 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Scoresbysund; size: 1040 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Sitka; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\St_Johns; size: 2000 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Swift_Current; size: 241 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Tegucigalpa; size: 121 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Thule; size: 852 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Thunder_Bay; size: 1188 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Tijuana; size: 1276 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Toronto; size: 1928 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Vancouver; size: 1592 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Whitehorse; size: 1108 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Winnipeg; size: 1560 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Yakutat; size: 1220 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\America\Yellowknife; size: 1068 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\Casey; size: 101 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\Davis; size: 117 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\DumontDUrville; size: 81 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\Macquarie; size: 785 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\Mawson; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\Palmer; size: 1104 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\Rothera; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\Syowa; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Antarctica\Vostok; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Aden; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Almaty; size: 453 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Amman; size: 617 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Anadyr; size: 585 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Aqtau; size: 453 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Aqtobe; size: 453 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Ashgabat; size: 269 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Baghdad; size: 489 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Bahrain; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Baku; size: 976 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Bangkok; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Beirut; size: 1208 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Bishkek; size: 485 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Brunei; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Choibalsan; size: 449 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Chongqing; size: 181 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Colombo; size: 129 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Damascus; size: 1300 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Dhaka; size: 121 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Dili; size: 93 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Dubai; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Dushanbe; size: 261 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Gaza; size: 1236 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Harbin; size: 205 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Hebron; size: 1252 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Hong_Kong; size: 617 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Hovd; size: 437 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Ho_Chi_Minh; size: 97 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Irkutsk; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Jakarta; size: 129 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Jayapura; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Jerusalem; size: 1236 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Kabul; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Kamchatka; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Karachi; size: 153 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Kashgar; size: 193 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Kathmandu; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Khandyga; size: 601 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Kolkata; size: 97 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Krasnoyarsk; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Kuala_Lumpur; size: 145 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Kuching; size: 217 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Kuwait; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Macau; size: 393 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Magadan; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Makassar; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Manila; size: 125 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Muscat; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Nicosia; size: 1116 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Novokuznetsk; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Novosibirsk; size: 589 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Omsk; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Oral; size: 461 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Phnom_Penh; size: 97 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Pontianak; size: 125 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Pyongyang; size: 101 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Qatar; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Qyzylorda; size: 465 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Rangoon; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Riyadh; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Riyadh87; size: 4821 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Riyadh88; size: 4733 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Riyadh89; size: 4765 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Sakhalin; size: 585 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Samarkand; size: 261 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Seoul; size: 165 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Shanghai; size: 201 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Singapore; size: 133 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Taipei; size: 381 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Tashkent; size: 261 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Tbilisi; size: 469 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Tehran; size: 892 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Thimphu; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Tokyo; size: 125 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Ulaanbaatar; size: 437 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Urumqi; size: 181 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Ust-Nera; size: 597 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Vientiane; size: 97 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Vladivostok; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Yakutsk; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Yekaterinburg; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Asia\Yerevan; size: 565 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\Azores; size: 1868 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\Bermuda; size: 1124 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\Canary; size: 1044 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\Cape_Verde; size: 97 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\Faroe; size: 1016 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\Madeira; size: 1864 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\Reykjavik; size: 577 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\South_Georgia; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\Stanley; size: 621 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Atlantic\St_Helena; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Adelaide; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Brisbane; size: 189 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Broken_Hill; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Currie; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Darwin; size: 125 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Eucla; size: 205 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Hobart; size: 1288 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Lindeman; size: 221 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Lord_Howe; size: 1012 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Melbourne; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Perth; size: 205 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Australia\Sydney; size: 1224 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\CET; size: 1184 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\CST6CDT; size: 1272 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\EET; size: 1072 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\EST; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\EST5EDT; size: 1272 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+1; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+10; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+11; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+12; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+2; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+3; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+4; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+5; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+6; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+7; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+8; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT+9; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-1; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-10; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-11; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-12; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-13; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-14; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-2; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-3; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-4; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-5; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-6; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-7; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-8; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\GMT-9; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\UCT; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Etc\UTC; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Amsterdam; size: 1544 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Andorra; size: 968 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Athens; size: 1196 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Belgrade; size: 1040 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Berlin; size: 1236 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Brussels; size: 1564 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Bucharest; size: 1180 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Budapest; size: 1312 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Chisinau; size: 1212 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Copenhagen; size: 1152 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Dublin; size: 1916 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Gibraltar; size: 1676 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Helsinki; size: 1036 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Istanbul; size: 1464 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Kaliningrad; size: 681 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Kiev; size: 1048 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Lisbon; size: 1868 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\London; size: 2024 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Luxembourg; size: 1568 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Madrid; size: 1416 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Malta; size: 1440 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Minsk; size: 605 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Monaco; size: 1576 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Moscow; size: 693 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Oslo; size: 1216 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Paris; size: 1568 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Prague; size: 1216 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Riga; size: 1108 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Rome; size: 1440 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Samara; size: 581 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Simferopol; size: 1064 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Sofia; size: 1088 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Stockholm; size: 1040 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Tallinn; size: 1080 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Tirane; size: 1164 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Uzhgorod; size: 1052 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Vienna; size: 1200 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Vilnius; size: 1060 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Volgograd; size: 565 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Warsaw; size: 1416 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Zaporozhye; size: 1072 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Europe\Zurich; size: 1040 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\GMT; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\HST; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Antananarivo; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Chagos; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Christmas; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Cocos; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Comoro; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Kerguelen; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Mahe; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Maldives; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Mauritius; size: 105 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Mayotte; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Indian\Reunion; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\MET; size: 1184 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\MST; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\MST7MDT; size: 1272 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Apia; size: 568 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Auckland; size: 1348 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Chatham; size: 1124 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Chuuk; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Easter; size: 1248 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Efate; size: 233 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Enderbury; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Fakaofo; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Fiji; size: 588 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Funafuti; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Galapagos; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Gambier; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Guadalcanal; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Guam; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Honolulu; size: 105 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Kiritimati; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Kosrae; size: 85 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Kwajalein; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Majuro; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Marquesas; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Midway; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Nauru; size: 97 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Niue; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Norfolk; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Noumea; size: 121 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Pago_Pago; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Palau; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Pitcairn; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Pohnpei; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Port_Moresby; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Rarotonga; size: 285 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Saipan; size: 77 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Tahiti; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Tarawa; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Tongatapu; size: 133 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Wake; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\Pacific\Wallis; size: 65 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\PST8PDT; size: 1272 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\AST4; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\AST4ADT; size: 2288 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\CST6; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\CST6CDT; size: 2288 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\EST5; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\EST5EDT; size: 2288 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\HST10; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\MST7; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\MST7MDT; size: 2288 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\PST8; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\PST8PDT; size: 2288 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\YST9; size: 27 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\SystemV\YST9YDT; size: 2288 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\WET; size: 1068 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\lib\zi\ZoneInfoMappings; size: 15294 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\LICENSE; size: 41 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\README.txt; size: 47 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\release; size: 506 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 125105 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\THIRDPARTYLICENSEREADME.txt; size: 176976 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\jre\Welcome.html; size: 983 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\LICENSE.html; size: 10871 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:42 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\README.html; size: 5332 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\bin\extra\embedded-db-viewer.bat; size: 682 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\bin\extra\embedded-db-viewer.sh; size: 654 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\bin\extra\embedded-db.rc; size: 140 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\bin\extra\openfire-launchd-wrapper.sh; size: 638 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\bin\extra\redhat\openfire; size: 5073 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\bin\extra\redhat\openfire-sysconfig; size: 1052 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\bin\openfire-service.exe; size: 227328 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:58 CST 2014, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\bin\openfire.exe; size: 221184 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\bin\openfirectl; size: 5034 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\bin\openfired.exe; size: 221184 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:58 CST 2014, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\changelog.html; size: 162387 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:42 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\conf\crowd.properties; size: 1572 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\conf\openfire.xml; size: 1157 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Never, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\documentation\database-guide.html; size: 45308 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:42 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\documentation\database.html; size: 12543 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\db-integration-guide.html; size: 12297 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\images\active_directory.png; size: 25285 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\images\header_logo.gif; size: 2861 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\images\launcher.png; size: 24633 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\images\setup_ldap.png; size: 28070 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\images\sitemesh.png; size: 66027 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\images\windows_service.png; size: 10408 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\index.html; size: 2978 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\install-guide.html; size: 11006 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\ldap-guide.html; size: 24165 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\licenses\LICENSE-commons-logging.txt; size: 2749 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\licenses\LICENSE-dom4j.txt; size: 1978 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\licenses\LICENSE-jaxen.txt; size: 1992 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\licenses\LICENSE-xpp3.txt; size: 2195 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\overlay.html; size: 3482 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\pluggable-roster-support-guide.html; size: 4663 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\plugin-dev-guide.html; size: 20031 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\protocol-support.html; size: 9141 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\source-build.html; size: 8073 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\ssl-guide.html; size: 10883 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\style.css; size: 3713 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\translator-guide.html; size: 5193 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\upgrade-guide.html; size: 5457 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\wildfire-ent-3_2_0-upgrade.html; size: 2128 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\documentation\wildfire-openfire-upgrade.html; size: 3862 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\activation.jar; size: 54829 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\bcpg-jdk15on.jar; size: 248366 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\bcpkix-jdk15on.jar; size: 629662 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\bcprov-jdk15on.jar; size: 2476362 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\commons-el.jar.pack; size: 98144 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\hsqldb.jar.pack; size: 571333 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:24 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\jasper-compiler.jar.pack; size: 263064 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\jasper-runtime.jar.pack; size: 75574 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\jdic.jar; size: 74639 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\jtds.jar.pack; size: 248731 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:26 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\log4j.xml; size: 2848 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\mail.jar; size: 362975 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\mysql.jar.pack; size: 784201 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:26 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\openfire.jar.pack; size: 7509660 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:38 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\postgres.jar.pack; size: 350661 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:40 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\servlet.jar.pack; size: 438895 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\slf4j-log4j12.jar.pack; size: 8013 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\lib\startup.jar; size: 71177 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:58 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\lib\tray.dll; size: 57344 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\logs\stderr.out; size: 0 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:42 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\plugin.xml; size: 262 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\admin.tld; size: 3856 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\decorators.xml; size: 881 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\dwr.xml; size: 748 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\lib\admin-jsp.jar.pack; size: 931136 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:42 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\lib\commons-fileupload.jar.pack; size: 44996 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\lib\commons-io.jar.pack; size: 71222 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\lib\dwr.jar.pack; size: 174147 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\sitemesh.xml; size: 1209 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\WEB-INF\web.xml; size: 50940 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\favicon.ico; size: 1150 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\add-16x16.gif; size: 615 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\aim-gray.gif; size: 124 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\aim.gif; size: 124 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\arrow_right_blue.gif; size: 1106 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\blank.gif; size: 43 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\both_32x16.gif; size: 659 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\bullet-green-14x14.gif; size: 530 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\bullet-red-14x14.gif; size: 530 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\bullet-yellow-14x14.gif; size: 530 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\bullet.gif; size: 73 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\cache-16x16.gif; size: 1017 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\certificate_ok-16x16.png; size: 863 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\certificate_warning-16x16.png; size: 809 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\check-16x16.gif; size: 535 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\check.gif; size: 289 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\clearspace.gif; size: 171 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\connection-manager_16x16.gif; size: 621 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\delete-16x16.gif; size: 1016 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\doc-changelog-16x16.gif; size: 604 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\doc-down-16x16.gif; size: 598 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\doc-readme-16x16.gif; size: 598 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\edit-16x16.gif; size: 1009 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\enterprise-info-btn.gif; size: 405 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\enterprise.png; size: 21151 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\error-16x16.gif; size: 1050 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\feed-icon-16x16.gif; size: 1026 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\forbidden-16x16.gif; size: 1023 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\greenlight-24x24.gif; size: 1126 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\header-background_new.gif; size: 880 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\header-help_new.gif; size: 1287 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\header-title_new.gif; size: 3147 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\icon_update-16x16.gif; size: 587 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\icon_warning-small.gif; size: 415 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\icq-gray.gif; size: 657 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\icq.gif; size: 655 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\im_available.gif; size: 533 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\im_away.gif; size: 533 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\im_dnd.gif; size: 533 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\im_free_chat.gif; size: 533 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\im_unavailable.gif; size: 226 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\incoming_32x16.gif; size: 569 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\info-16x16.gif; size: 594 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\irc-gray.gif; size: 367 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\irc.gif; size: 361 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-body-bg.gif; size: 82 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-body-contentbox-bg.gif; size: 619 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-login-bg.gif; size: 2781 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-login-form-bg-gray.gif; size: 565 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-login-form-bg.gif; size: 893 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-nav-bg-left.gif; size: 285 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-nav-bg-on.gif; size: 329 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-nav-bg-over.gif; size: 331 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-nav-bg-right.gif; size: 282 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-nav-bg.gif; size: 361 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-nav-div.gif; size: 49 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-subnav-bg.gif; size: 208 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-subnav-div.gif; size: 45 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-tertnav-arrow.gif; size: 49 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\jive-tertnav-top.gif; size: 128 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\language_zh_CN.gif; size: 612 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\lock.gif; size: 563 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\login_background.png; size: 3250 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\login_boxbg.gif; size: 1315 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\login_header.gif; size: 1110 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\login_logo.gif; size: 2926 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\mark-16x16.gif; size: 542 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\msn-gray.gif; size: 594 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\msn.gif; size: 601 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\outgoing_32x16.gif; size: 555 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\page-background_new.gif; size: 202 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\percent-bar-left.gif; size: 92 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\percent-bar-used-high.gif; size: 92 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\percent-bar-used-low.gif; size: 92 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\plugin-16x16.gif; size: 577 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\redlight-24x24.gif; size: 1119 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\refresh-16x16.gif; size: 982 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\server-network-24x24.gif; size: 1189 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\server_16x16.gif; size: 577 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup-header.png; size: 2499 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup-sidebar-bottom.gif; size: 229 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup-sidebar-top.gif; size: 230 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_btn_bg-bigblue.gif; size: 439 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_btn_bg-grey.gif; size: 227 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_btn_bg-orange.gif; size: 227 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_btn_closetestx.gif; size: 59 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_btn_gearplay.gif; size: 390 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_contentbox_bg.gif; size: 619 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_header_bg.gif; size: 883 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_header_logo.gif; size: 4280 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_helpicon.gif; size: 237 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_language_zh_CN.gif; size: 677 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_nextprofile.gif; size: 388 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_bg-top.gif; size: 154 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_bg.gif; size: 239 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_check.gif; size: 183 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_progress0.gif; size: 267 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_progress1.gif; size: 331 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_progress2.gif; size: 351 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_progress3.gif; size: 372 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_progress4.gif; size: 377 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\setup_sidebar_progress5.gif; size: 284 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\sidebar_top.gif; size: 156 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\sort_ascending.gif; size: 567 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\sort_descending.gif; size: 569 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\star-16x16.gif; size: 1086 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\success-16x16.gif; size: 1016 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\tape.gif; size: 607 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\twisty_closed_9x9.gif; size: 164 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\twisty_inactive_9x9.gif; size: 164 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\twisty_opened_9x9.gif; size: 112 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\user-clear-16x16.gif; size: 567 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\user-green-16x16.gif; size: 567 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\user-red-16x16.gif; size: 567 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\user-yellow-16x16.gif; size: 567 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\user.gif; size: 979 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\wait24trans.gif; size: 5040 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\warning-16x16.gif; size: 580 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\working-16x16.gif; size: 3239 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\x.gif; size: 291 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\yahoo-gray.gif; size: 622 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\images\yahoo.gif; size: 645 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\index.html; size: 115 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\behaviour.js; size: 8149 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\builder.js; size: 3361 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\controls.js; size: 28036 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\cookies.js; size: 2604 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\dragdrop.js; size: 23613 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\effects.js; size: 32740 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\jscalendar\calendar-setup.js; size: 8853 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\jscalendar\calendar-win2k-1.css; size: 5986 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\jscalendar\calendar-win2k-cold-1.css; size: 5782 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\jscalendar\calendar.js; size: 49237 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\lightbox.js; size: 5891 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\pngfix.js; size: 1565 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\prototype.js; size: 163313 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\scriptaculous.js; size: 2245 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\setup.js; size: 477 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\slider.js; size: 10790 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\tooltips\domLib.js; size: 17643 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\tooltips\domTT.js; size: 31234 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\tooltips\domTT_drag.js; size: 2690 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\tooltips\fadomatic.js; size: 4716 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\js\unittest.js; size: 12931 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\setup\setup-style.css; size: 2315 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\style\global.css; size: 21867 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\style\ldap.css; size: 10219 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\style\lightbox.css; size: 1034 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\style\login.css; size: 1183 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\admin\webapp\style\setup.css; size: 11083 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\plugins\search.jar; size: 33346 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\openfire_db2.sql; size: 13876 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\openfire_hsqldb.sql; size: 14571 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\openfire_mysql.sql; size: 12970 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\openfire_oracle.sql; size: 14405 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\openfire_postgresql.sql; size: 14348 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\openfire_sqlserver.sql; size: 14408 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\openfire_sybase.sql; size: 14482 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\10\openfire_db2.sql; size: 289 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\10\openfire_hsqldb.sql; size: 287 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\10\openfire_mysql.sql; size: 259 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\10\openfire_oracle.sql; size: 289 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\10\openfire_postgresql.sql; size: 285 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\10\openfire_sqlserver.sql; size: 299 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\10\openfire_sybase.sql; size: 297 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\11\openfire_db2.sql; size: 309 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\11\openfire_hsqldb.sql; size: 286 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\11\openfire_mysql.sql; size: 271 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\11\openfire_oracle.sql; size: 304 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\11\openfire_postgresql.sql; size: 304 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\11\openfire_sqlserver.sql; size: 315 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\11\openfire_sybase.sql; size: 310 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\12\openfire_db2.sql; size: 680 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\12\openfire_hsqldb.sql; size: 129 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\12\openfire_mysql.sql; size: 158 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\12\openfire_oracle.sql; size: 153 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\12\openfire_postgresql.sql; size: 153 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\12\openfire_sqlserver.sql; size: 151 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\12\openfire_sybase.sql; size: 145 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\13\openfire_db2.sql; size: 4649 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\13\openfire_hsqldb.sql; size: 472 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\13\openfire_mysql.sql; size: 546 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\13\openfire_oracle.sql; size: 456 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\13\openfire_postgresql.sql; size: 456 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\13\openfire_sqlserver.sql; size: 384 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\13\openfire_sybase.sql; size: 378 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\14\openfire_db2.sql; size: 140 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\14\openfire_hsqldb.sql; size: 141 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\14\openfire_mysql.sql; size: 260 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\14\openfire_oracle.sql; size: 154 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\14\openfire_postgresql.sql; size: 142 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\14\openfire_sqlserver.sql; size: 148 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\14\openfire_sybase.sql; size: 147 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\15\openfire_db2.sql; size: 481 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\15\openfire_hsqldb.sql; size: 479 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\15\openfire_mysql.sql; size: 395 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\15\openfire_oracle.sql; size: 490 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\15\openfire_postgresql.sql; size: 474 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\15\openfire_sqlserver.sql; size: 484 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\15\openfire_sybase.sql; size: 484 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\16\openfire_db2.sql; size: 620 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\16\openfire_hsqldb.sql; size: 627 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\16\openfire_mysql.sql; size: 531 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\16\openfire_oracle.sql; size: 639 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\16\openfire_postgresql.sql; size: 621 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\16\openfire_sqlserver.sql; size: 624 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\16\openfire_sybase.sql; size: 623 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\17\openfire_db2.sql; size: 7364 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\17\openfire_hsqldb.sql; size: 7545 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\17\openfire_mysql.sql; size: 7264 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\17\openfire_oracle.sql; size: 7457 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\17\openfire_postgresql.sql; size: 7361 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\17\openfire_sqlserver.sql; size: 7487 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\17\openfire_sybase.sql; size: 7383 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\18\openfire_db2.sql; size: 207 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\18\openfire_hsqldb.sql; size: 207 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\18\openfire_mysql.sql; size: 206 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\18\openfire_oracle.sql; size: 209 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\18\openfire_postgresql.sql; size: 225 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\18\openfire_sqlserver.sql; size: 199 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\18\openfire_sybase.sql; size: 206 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\19\openfire_db2.sql; size: 8823 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\19\openfire_hsqldb.sql; size: 9268 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\19\openfire_mysql.sql; size: 4979 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\19\openfire_oracle.sql; size: 9597 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\19\openfire_postgresql.sql; size: 9571 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\19\openfire_sqlserver.sql; size: 9630 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\19\openfire_sybase.sql; size: 9577 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\1\openfire_db2.sql; size: 2168 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\1\openfire_hsqldb.sql; size: 2313 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\1\openfire_mysql.sql; size: 2141 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\1\openfire_oracle.sql; size: 2151 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\1\openfire_postgresql.sql; size: 2180 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\1\openfire_sqlserver.sql; size: 2294 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\20\openfire_db2.sql; size: 201 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\20\openfire_hsqldb.sql; size: 201 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\20\openfire_mysql.sql; size: 200 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\20\openfire_oracle.sql; size: 203 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\20\openfire_postgresql.sql; size: 227 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\20\openfire_sqlserver.sql; size: 197 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\20\openfire_sybase.sql; size: 204 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\21\openfire_db2.sql; size: 170 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\21\openfire_hsqldb.sql; size: 170 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\21\openfire_mysql.sql; size: 168 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\21\openfire_oracle.sql; size: 181 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\21\openfire_postgresql.sql; size: 170 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\21\openfire_sqlserver.sql; size: 176 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\21\openfire_sybase.sql; size: 176 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\2\openfire_db2.sql; size: 1655 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\2\openfire_hsqldb.sql; size: 1612 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\2\openfire_mysql.sql; size: 1525 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\2\openfire_oracle.sql; size: 1778 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\2\openfire_postgresql.sql; size: 1655 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\2\openfire_sqlserver.sql; size: 1703 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\4\openfire_db2.sql; size: 298 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\4\openfire_hsqldb.sql; size: 295 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\4\openfire_mysql.sql; size: 295 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\4\openfire_oracle.sql; size: 299 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\4\openfire_postgresql.sql; size: 298 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\4\openfire_sqlserver.sql; size: 350 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\4\openfire_sybase.sql; size: 344 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\5\openfire_db2.sql; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\5\openfire_hsqldb.sql; size: 547 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\5\openfire_mysql.sql; size: 489 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\5\openfire_oracle.sql; size: 558 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\5\openfire_postgresql.sql; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\5\openfire_sqlserver.sql; size: 603 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\5\openfire_sybase.sql; size: 563 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\6\openfire_db2.sql; size: 513 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\6\openfire_hsqldb.sql; size: 508 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\6\openfire_mysql.sql; size: 502 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\6\openfire_oracle.sql; size: 549 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\6\openfire_postgresql.sql; size: 519 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\6\openfire_sqlserver.sql; size: 546 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\6\openfire_sybase.sql; size: 514 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\7\openfire_db2.sql; size: 4147 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\7\openfire_hsqldb.sql; size: 4147 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\7\openfire_mysql.sql; size: 4019 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\7\openfire_oracle.sql; size: 4217 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\7\openfire_postgresql.sql; size: 4147 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\7\openfire_sqlserver.sql; size: 4239 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\7\openfire_sybase.sql; size: 4215 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\8\openfire_db2.sql; size: 918 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\8\openfire_hsqldb.sql; size: 918 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\8\openfire_mysql.sql; size: 870 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\8\openfire_oracle.sql; size: 933 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\8\openfire_postgresql.sql; size: 918 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\8\openfire_sqlserver.sql; size: 1350 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\8\openfire_sybase.sql; size: 937 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\9\openfire_db2.sql; size: 89 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\9\openfire_hsqldb.sql; size: 770 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\9\openfire_mysql.sql; size: 745 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\9\openfire_oracle.sql; size: 524 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\9\openfire_postgresql.sql; size: 2981 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\9\openfire_sqlserver.sql; size: 1731 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\database\upgrade\9\openfire_sybase.sql; size: 95 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n.properties; size: 167009 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:42 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_cs_CZ.properties; size: 170370 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_de.properties; size: 143885 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_en.properties; size: 167009 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_es.properties; size: 153175 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_fr.properties; size: 154659 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_ja_JP.properties; size: 262187 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_nl.properties; size: 141561 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_pl_PL.properties; size: 155296 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_pt_BR.properties; size: 154380 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_ru_RU.properties; size: 447638 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_sk.properties; size: 171453 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\i18n\openfire_i18n_zh_CN.properties; size: 173556 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\nativeAuth\linux-i386\libshaj.so; size: 11964 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\resources\nativeAuth\osx-ppc\libshaj.jnilib; size: 15016 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\nativeAuth\solaris-sparc\libshaj.so; size: 14296 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\nativeAuth\win32-x86\shaj.dll; size: 34816 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\security\client.truststore; size: 32 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\security\keystore; size: 32 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Never, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\resources\security\truststore; size: 50936 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\resources\spank\WEB-INF\web.xml; size: 304 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:22 CST 2014, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\resources\spank\index.html; size: 222 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\uninstall.exe; size: 216576 bytes; exists: false
+       File options set to: [fileTime: Thu Feb 06 15:39:58 CST 2014, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\.install4j\inst_jre.cfg; size: 64 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:09:46 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\.install4j\pref_jre.cfg; size: 32 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:09:46 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4jruntime.jar; size: 1036555 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:09:46 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: D:\A-Lin Software\Openfire\.install4j\MessagesDefault; size: 32732 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4jparams.conf; size: 212700 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\stats.properties; size: 2145 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\user.jar; size: 3396 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4jdel.exe; size: 35680 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4jinst.dll; size: 132608 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_0_19dpaqb.utf8; size: 32732 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_10_19dpaqb.html; size: 10871 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_1_19dpaqb.utf8; size: 27865 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_2_19dpaqb.utf8; size: 32708 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_3_19dpaqb.utf8; size: 32984 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_4_19dpaqb.utf8; size: 38007 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_5_19dpaqb.utf8; size: 35468 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_6_19dpaqb.utf8; size: 33937 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_7_19dpaqb.utf8; size: 34611 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_8_19dpaqb.utf8; size: 35462 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\i4j_extf_9_19dpaqb_unjvvr.png; size: 2133 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\unicows.dll; size: 245408 bytes; exists: false
+       Install file: D:\A-Lin Software\Openfire\.install4j\_shfoldr.dll; size: 22528 bytes; exists: false
+       Execute action successful after 9678 ms
+[INFO] com.install4j.runtime.beans.actions.files.SetModeAction [ID 1264]: Execute action
+       Property mode: 755
+       Property recursive: false
+       Property showProgress: false
+       Property showFileNames: true
+       Property files: [bin\openfire.sh]
+       Property fileFilter: null
+       Property directoryFilter: null
+       Property rollbackSupported: true
+       Execute action successful after 14 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 63]: Execute action
+       Property allUsers: true
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupName: Openfire
+       Property unixSymlinks: true
+       Property programGroupEntryConfigs: []
+       Property uninstallerMenuName: Openfire –∂‘ÿ≥Ã–Ú
+       Property addDefaultLauncherLinks: true
+       Property failForSymlinksNotCreated: false
+       Property addUninstaller: true
+       Property unixMenuEntries: true
+       Property rollbackSupported: true
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Openfire\Openfire Server.lnk; size: 863 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:09:46 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Openfire\Openfire –∂‘ÿ≥Ã–Ú.lnk; size: 778 bytes; exists: false
+       File options set to: [fileTime: Sat Apr 26 21:09:46 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 142 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 64]: Execute action
+       Property icon: null
+       Property itemName: Openfire 3.9.1
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 50 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 60]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 1280]: Show screen
+       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.finish.ExecuteLauncherAction [ID 1292]: Execute action
+       Property arguments: null
+       Property launcherId: 12
+       Property rollbackSupported: false
+       Execute action successful after 546 ms
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 1280]: command: finish
+       cleaning up
+       Finished

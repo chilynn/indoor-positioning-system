@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/header_height"
+        android:background="@color/gray_light" >
+
+        <com.neu.wifilocalization.view.ClearEditText
+            android:id="@+id/filter_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/bg_edit_box"
+            android:hint="请输入关键字"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textSize="15.0dip" />
+
+        <TextView
+            android:id="@+id/default_hint_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="目前还没有好友噢！"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:visibility="gone" >
+        </TextView>
+
+        <ListView
+            android:id="@+id/social_friend_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/filter_edit"
+            android:layout_gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:divider="@null"
+            android:listSelector="#00000000" />
+    </RelativeLayout>
+
+</RelativeLayout>

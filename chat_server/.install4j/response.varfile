@@ -1,0 +1,9 @@
+#install4j response file for Openfire 3.9.1
+#Sat Apr 26 21:09:56 CST 2014
+sys.programGroupAllUsers$Boolean=true
+executeLauncherAction$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.languageId=zh_CN
+sys.programGroupName=Openfire
+sys.adminRights$Boolean=true
+sys.installationDir=D\:\\A-Lin Software\\Openfire
